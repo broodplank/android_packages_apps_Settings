@@ -1779,9 +1779,9 @@
     <!-- About broodROM Settings -->
     <string name="broodromsettings">broodROM Settings</string>
     <!-- About broodROM Settings -->
-    <string name="broodromversion">broodROM Jellybean Version</string>
+    <string name="broodromversion">broodROM Jellybean Release 1</string>
     <!-- About broodROM Settings -->
-    <string name="broodromversionsummary">Release 1</string>
+    <string name="broodromversionsummary">Unknown</string>
     <string name="themes_settings_title">Theme Manager</string>
     <string name="ariespartssettings">Device specific settings</string>
     <!-- About phone screen, status item label -->
