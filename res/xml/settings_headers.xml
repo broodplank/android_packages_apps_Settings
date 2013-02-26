@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2010 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -154,6 +153,43 @@
             android:action="android.settings.ADD_ACCOUNT_SETTINGS"/>
     </header>
 
+   <!-- SYSTEM -->
+    <header android:title="@string/header_category_additional" />
+
+   <!-- AriesParts -->
+  <header
+        android:id="@+id/ariesparts"
+        android:icon="@drawable/icon"
+        android:title="@string/ariespartssettings">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.cyanogenmod.settings.device"
+            android:targetClass="com.cyanogenmod.settings.device.DeviceSettings" />
+    </header>
+
+       <!-- broodParts -->
+  <header
+        android:id="@+id/broodrom_prefs"
+        android:icon="@drawable/ic_sysbar_quicksettings"
+        android:title="@string/broodromsettings">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.broodplank.broodparts"
+            android:targetClass="com.broodplank.broodparts.mainActivity" />
+    </header>
+
+ <!-- Themes -->
+    <header
+        android:id="@+id/themes_settings"
+        android:icon="@drawable/ic_settings_themes"
+        android:title="@string/themes_settings_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.tmobile.themechooser"
+            android:targetClass="com.tmobile.themechooser.ThemeChooser" />
+    </header>
+
+
     <!-- SYSTEM -->
     <header android:title="@string/header_category_system" />
 
@@ -178,12 +214,14 @@
         android:icon="@drawable/ic_settings_accessibility"
         android:title="@string/accessibility_settings" />
 
+
     <!-- Development -->
     <header
         android:id="@+id/development_settings"
         android:fragment="com.android.settings.DevelopmentSettings"
         android:icon="@drawable/ic_settings_development"
         android:title="@string/development_settings_title" />
+
 
     <!-- About Device -->
     <header
