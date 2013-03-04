@@ -190,18 +190,6 @@
     </header>
 
 
- <!-- DSP Manager -->
-    <header
-        android:id="@+id/dspman"
-        android:icon="@drawable/dspmanicon"
-        android:title="@string/dspman_title">
-        <intent
-            android:action="android.intent.action.MAIN"
-            android:targetPackage="com.bel.android.dspmanager"
-            android:targetClass="com.bel.android.dspmanager.activity.DSPManager" />
-    </header>
-
-
     <!-- SYSTEM -->
     <header android:title="@string/header_category_system" />
 

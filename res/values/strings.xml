@@ -1559,6 +1559,8 @@
     <string name="all_volume_title">Volumes</string>
     <!-- Sound settings screen, music effects title [CHAR LIMIT=30]-->
     <string name="musicfx_title">Music effects</string>
+    <string name="dspman_title">DSP Manager</string>
+    <string name="dspman_sum">Music enhancement and equalizer</string>
     <!-- Sound settings screen, setting option name -->
     <string name="ring_volume_title">Ringer volume</string>
     <!-- Sound settings screen, setting option name checkbox -->
@@ -1781,7 +1783,7 @@
     <!-- About broodROM Settings -->
     <string name="broodromversion">broodROM Jellybean Version</string>
     <!-- About broodROM Settings -->
-    <string name="broodromversionsummary">Release 1</string>
+    <string name="broodromversionsummary">Release 2</string>
     <string name="themes_settings_title">Theme Manager</string>
     <string name="ariespartssettings">Device specific settings</string>
     <!-- About phone screen, status item label -->
