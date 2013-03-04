@@ -1797,6 +1797,8 @@
     <string name="device_status_activity_title">Status</string>
     <!-- About phone screen, title of the item to go into the Phone status screen -->
     <string name="device_status">Status</string>
+    <string name="brstats">broodROM Stats</string>
+    <string name="brstatssum">View the stats of broodROM Jellybean</string>
     <!-- About tablet screen, summary of the item that takes you to tablet status screen -->
     <string name="device_status_summary" product="tablet">Status of the battery, network, and other information</string>
     <!-- About phone screen, summary of the item to go into the phone status screen -->
