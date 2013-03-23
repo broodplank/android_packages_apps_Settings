@@ -1783,9 +1783,12 @@
     <!-- About broodROM Settings -->
     <string name="broodromversion">broodROM Jellybean Version</string>
     <!-- About broodROM Settings -->
-    <string name="broodromversionsummary">Release 2</string>
+    <string name="broodromversionsummary">Release 3</string>
     <string name="themes_settings_title">Theme Manager</string>
     <string name="ariespartssettings">Device specific settings</string>
+    <string name="angrygpstitle">AngryGPS</string>
+    <string name="angrygpssum">Use AngryGPS to test your GPS settings</string>
+    <string name="angrygpsheader">Additional GPS tools</string>
     <!-- About phone screen, status item label -->
     <string name="cpu_info">CPU info</string>
     <!-- About phone screen, status item label -->

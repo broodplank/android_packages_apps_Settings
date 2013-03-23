@@ -41,17 +41,13 @@
             android:dependency="location_toggle"
             android:persistent="false" />
 
-    <PreferenceCategory android:key="angrygpssection"
-            android:title="@string/angrygpsheader">
-
-	<PreferenceScreen android:key="angrygps"
-                android:title="@string/angrygpstitle" 
-                android:summary="@string/angrygpssum">
-            <intent android:action="android.intent.action.MAIN"
-                    android:targetPackage="com.android.angryGps"
-                    android:targetClass="com.android.angryGps.AngryGPS" />
-        </PreferenceScreen>
-
-</PreferenceCategory>
+<!-- Disabled to avoid confusion on devices with no AGPS
+     For Google experience devices we want AGPS on by default (if supported) so we don't really need this.
+        <CheckBoxPreference
+            android:key="assisted_gps"
+            android:title="@string/assisted_gps"
+            android:summaryOn="@string/assisted_gps_enabled"
+            android:summaryOff="@string/assisted_gps_disabled"/>
+-->
 
 </PreferenceScreen>
