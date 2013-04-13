@@ -46,7 +46,8 @@
 
 	<PreferenceScreen android:key="angrygps"
                 android:title="@string/angrygpstitle" 
-                android:summary="@string/angrygpssum">
+                android:summary="@string/angrygpssum"
+			    android:dependency="location_toggle">
             <intent android:action="android.intent.action.MAIN"
                     android:targetPackage="com.android.angryGps"
                     android:targetClass="com.android.angryGps.AngryGPS" />
