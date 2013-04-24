@@ -41,7 +41,28 @@
             android:dependency="location_toggle"
             android:persistent="false" />
 
-    <PreferenceCategory android:key="angrygpssection"
+        <PreferenceCategory android:key="gpsconfsection"
+            android:title="@string/gpsconfheader">
+
+	<PreferenceScreen android:key="autogps"
+                android:title="@string/autogps" 
+                android:summary="@string/autogpssum">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.broodplank.autogps"
+                    android:targetClass="com.broodplank.autogps.MainActivity" />
+        </PreferenceScreen>
+
+        <PreferenceScreen android:key="restoregps"
+                android:title="@string/restoregps" 
+                android:summary="@string/restoregpssum">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.broodplank.autogps"
+                    android:targetClass="com.broodplank.autogps.Restore" />
+        </PreferenceScreen>
+
+</PreferenceCategory>
+
+        <PreferenceCategory android:key="angrygpssection"
             android:title="@string/angrygpsheader">
 
 	<PreferenceScreen android:key="angrygps"

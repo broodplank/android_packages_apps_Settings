@@ -1788,7 +1788,14 @@
     <string name="ariespartssettings">Device specific settings</string>
     <string name="angrygpstitle">AngryGPS</string>
     <string name="angrygpssum">Use AngryGPS to test your GPS settings</string>
+    <string name="gpsconfheader">GPS Configuration</string>
     <string name="angrygpsheader">Additional GPS tools</string>
+    <string name="autogps">Auto GPS Configuration</string>
+    <string name="autogpssum">Automatically make new gps.conf for your country (fetched from system language)</string>
+    <string name="restoregps">Restore GPS Configuration</string>
+    <string name="restoregpssum">Restore the original gps.conf from the ROM</string>
+    <string name="stk">Sim Toolkit</string>
+    <string name="stksum">Open the Sim Toolkit app (STK)</string>
     <!-- About phone screen, status item label -->
     <string name="cpu_info">CPU info</string>
     <!-- About phone screen, status item label -->

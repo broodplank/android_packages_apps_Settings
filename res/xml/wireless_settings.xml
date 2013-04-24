@@ -85,4 +85,12 @@
             android:targetClass="com.android.cellbroadcastreceiver.CellBroadcastSettings" />
     </PreferenceScreen>
 
+    <PreferenceScreen android:key="stk"
+                android:title="@string/stk" 
+                android:summary="@string/stksum">
+            <intent android:action="android.intent.action.MAIN"
+                    android:targetPackage="com.android.stk"
+                    android:targetClass="com.android.stk.StkLauncherActivity" />
+        </PreferenceScreen>
+
 </PreferenceScreen>
