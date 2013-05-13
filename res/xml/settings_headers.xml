@@ -201,6 +201,17 @@
             android:targetClass="com.bel.android.dspmanager.activity.DSPManager" />
     </header>
 
+ <!-- Backup Manager -->
+    <header
+        android:id="@+id/bakman"
+        android:icon="@drawable/ic_settings_backup"
+        android:title="@string/bakman_title">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.broodplank.bakman"
+            android:targetClass="com.broodplank.bakman.mainActivity" />
+    </header>
+
 
     <!-- SYSTEM -->
     <header android:title="@string/header_category_system" />

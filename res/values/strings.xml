@@ -1785,6 +1785,7 @@
     <!-- About broodROM Settings -->
     <string name="broodromversionsummary">Release 4</string>
     <string name="themes_settings_title">Theme Manager</string>
+    <string name="bakman_title">Backup Manager</string>
     <string name="ariespartssettings">Device specific settings</string>
     <string name="angrygpstitle">AngryGPS</string>
     <string name="angrygpssum">Use AngryGPS to test your GPS settings</string>
