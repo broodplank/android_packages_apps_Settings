@@ -208,8 +208,8 @@
         android:title="@string/bakman_title">
         <intent
             android:action="android.intent.action.MAIN"
-            android:targetPackage="com.broodplank.bakman"
-            android:targetClass="com.broodplank.bakman.mainActivity" />
+            android:targetPackage="com.broodplank.backupman"
+            android:targetClass="com.broodplank.backupman.mainActivity" />
     </header>
 
 
