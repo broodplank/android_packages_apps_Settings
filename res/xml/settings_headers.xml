@@ -178,6 +178,17 @@
             android:targetClass="com.broodplank.broodparts.mainActivity" />
     </header>
 
+       <!-- InstaVOLT -->
+  <header
+        android:id="@+id/instavolt"
+        android:icon="@drawable/ic_ocuv"
+        android:title="@string/instavoltsettings">
+        <intent
+            android:action="android.intent.action.MAIN"
+            android:targetPackage="com.broodplank.instavolt"
+            android:targetClass="com.broodplank.instavolt.mainActivity" />
+    </header>
+
  <!-- Themes -->
     <header
         android:id="@+id/themes_settings"

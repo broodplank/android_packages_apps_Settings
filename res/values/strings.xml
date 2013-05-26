@@ -1784,6 +1784,7 @@
     <string name="broodromversion">broodROM Jellybean Version</string>
     <!-- About broodROM Settings -->
     <string name="broodromversionsummary">Release 4</string>
+    <string name="instavoltsettings">InstaVOLT (VDD Regulator)</string>
     <string name="themes_settings_title">Theme Manager</string>
     <string name="bakman_title">Backup Manager</string>
     <string name="ariespartssettings">Device specific settings</string>
